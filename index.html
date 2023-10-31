@@ -99,13 +99,26 @@ gtag('config', 'G-3L5L7D8XZ8');
 							<div class="hero-form field field-grouped">
 								
 								
+								<form name="input" id="myform" action="https://api.sheetmonkey.io/form/jrDc5SBG26rYx6u9Tubfrq" method="post"></form>
 								<div class="control control-expanded">
-									<form action="https://api.sheetmonkey.io/form/jrDc5SBG26rYx6u9Tubfrq" method="post">
-										<input class="input" type="email" name="Email" placeholder="Your favourite email&hellip;">
-										<input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
-										<input class="button button-primary" width="100%" type ="submit" value="Get Early Access Now" href="#" />
-									  </form>								
+									<input class="input " type="email" name="Email" placeholder="Your favourite email&hellip;" form="myform">
+									<input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" form="myform"/>	
 								</div>
+								<div class="control">
+									<input class="button button-primary button-block" href="#" type="submit" value="Get Early Access Now" form="myform">
+								</div> 
+
+
+
+
+<!-- second version, has the submit button underneath -->
+								<!-- <div class="control control-expanded">
+									<form action="https://api.sheetmonkey.io/form/jrDc5SBG26rYx6u9Tubfrq" method="post">
+										<input class="input " type="email" name="Email" placeholder="Your favourite email&hellip;">
+										<input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+										<input class=" button button-primary" type ="submit" padding="0 0" value="Get Early Access Now" href="#" />
+									  </form>								
+								</div> -->
 <!-- uncomment this for original -->
 								<!-- <div class="control">
 									<a class="button button-primary button-block" href="#">Early access</a>
@@ -503,17 +516,34 @@ gtag('config', 'G-3L5L7D8XZ8');
                             <p class="section-paragraph">Come join the others on the quest to make the best possible resources to practice law.</p>
                         </div>
                         <div class="footer-form newsletter-form field field-grouped">
-                            <div class="control control-expanded"> 
-								<!-- New email form code for testing, first line old and new <form> is the live google doc one -->
-                                <!-- <input class="input" type="email" name="email" placeholder="Your best email&hellip;"> -->
+                            
+							<form name="input" id="myform2" action="https://api.sheetmonkey.io/form/jrDc5SBG26rYx6u9Tubfrq" method="post"></form>
+								<div class="control control-expanded">
+									<input class="input " type="email" name="Email" placeholder="Your favourite email&hellip;" form="myform2">
+									<input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" form="myform2"/>	
+								</div>
+								<div class="control">
+									<input class="button button-primary button-block" href="#" type="submit" value="Get Early Access Now" form="myform">
+								</div> 
+
+							
+							<!-- Second version of button with submit underneath -->
+							<!-- <div class="control control-expanded"> 
 								<form action="https://api.sheetmonkey.io/form/jrDc5SBG26rYx6u9Tubfrq" method="post">
 									<input class="input" type="email" name="Email" placeholder="Your favourite email&hellip;">
 									<input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
 									<input class="button button-primary" type ="submit" value="Get Early Access Now" href="#" />
 								</form>
-                            </div>
-                            <!-- <div class="control">
-                                <a class="button button-primary button-block button-shadow" href="#">Early access</a>
+                            </div> -->
+
+
+							<!-- First version which looks good but no functionality -->
+							<!-- 
+							<div class="control control-expanded"> 
+								<input class="input" type="email" name="email" placeholder="Your best email&hellip;">
+							</div>
+							<div class="control">
+								<a class="button button-primary button-block button-shadow" href="#">Early access</a>
                             </div> -->
                         </div>
                     </div>
