@@ -1,0 +1,27 @@
+1.2.2
+-----
+
+- Introduced logging and registration
+- Pushed UI changes on logging, registration, email templates and CanDoo plugin pop-up
+- Removed false-positive detections of structured statements
+- Removed "on" and "to" from mapping to "Ontario" jurisdiction
+- Made logic improvements to handle stopwords better
+- Autodetects very few legal phrases but extracts and maintains them
+
+
+1.1.0
+-----
+
+- Introduced a centralized service to synchronize activies, enabling us to add/expand features without breaking anything.
+- Pointed plugin to a new endpoint.
+
+
+1.0.0 - First upload
+-----
+
+- Conversion of keyword search text into structured query with synonyms
+- Extracts absolute date(s) and range(s).
+- Extracts a few canadian locations and populates the jurisdiction field.
+- Extracts cue words to change tabs accordingly
+- Display a new CanDoo gold button on CanLII search bar
+- Send and receive request from our backend server, populate document text field, and run CanLII grey search button.
